@@ -1,0 +1,36 @@
+nav {
+    width: 100%;
+    background-color: #13262f;
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-left: 0;
+    list-style: none;
+    flex-direction: row;
+}
+
+li:hover {
+    background-color: #583e23;
+    padding: 4px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-decoration-line: none;
+    border: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #73683B;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: larger;
+    font-family: "Montserrat", sans-serif;
+}

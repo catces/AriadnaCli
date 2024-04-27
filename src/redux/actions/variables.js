@@ -1,0 +1,6 @@
+export const GET_ALL_USERS = "GET_ALL_USERS";
+export const PUT_STATUS = "PUT_STATUS";
+export const GET_USER = "GET_USER";
+export const GET_DEPARTMENTS = "GET_DEPARTMENTS";
+export const GET_MUNICIPALITIES = "GET_MUNICIPALITIES";
+export const CLEAN_UP_DETAILS = "CLEAN_UP_DETAILS";

@@ -1,0 +1,124 @@
+.maxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #13262f;
+    min-height: 70vh;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    max-width: 60vw;
+    /* background-color: #e9e6ff; */
+    background-color: #13262f;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+}
+
+input {
+    width: 60%;
+    text-align: center;
+    color: black;
+    background-color: #13262f;
+}
+
+.inputButton {
+    background-color: #e0e0e0;
+}
+
+.inputButton:hover {
+    background-color: #583e23;
+    color: #e0e0e0;
+}
+
+
+.selectClass {
+    width: 61%;
+    text-align-last: center;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #13262f;
+    height: 70vh;
+    align-items: center;
+}
+
+.loginFormContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.loginFormBody {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 1%;
+    background-color: #13262f;
+    min-height: 50vh;
+    border-color: whitesmoke;
+    border-width: thin;
+    border-style: solid;
+}
+
+.registerFormBody {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 1%;
+    background-color: #13262f;
+    min-height: 50vh;
+    border-color: whitesmoke;
+    border-width: thin;
+    border-style: solid;
+    padding-bottom: 2%;
+}
+
+.inputform {
+    max-width: 50%;
+}
+
+.inputBlank {
+    color: #e9e6ff;
+}
+
+.loginSubcontainer {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    background-color: deepskyblue;
+    border-radius: 4%;
+}
+
+.logintittle {
+    color: #73683B;
+    font-size: x-large;
+}
+
+label {
+    color: #73683B;
+}
+
+.registerElementsDiv {
+    width: 100%;
+}
+
+.errorMessage {
+    color: yellow;
+}
